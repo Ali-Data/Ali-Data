@@ -87,7 +87,7 @@ for i, Country in enumerate (df['Categories']):
 
 Y=p.fit_transform(X)
 plt.figure(1)
-plt.scatter(Y[:,0],Y[:,1],c="red",marker='o',alpha=0.5)
+plt.scatter(Y[:,0],Y[:,1],c="red",marker='o',alpha=0.5 )
 plt.xlabel('PC Scores 1')
 plt.ylabel('PC Scores 2')
 xs=Y[:,0]
